@@ -1,146 +1,31 @@
-/* === БАЗА === */
-body {
-    font-family: Arial, sans-serif;
-    background: #0c0c0c;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: linear-gradient(135deg, #ff00ff, #5a00d4);
-    padding: 45px;
+/* === СВЯТІК ШІСТКА === */
+.svyatik {
     text-align: center;
+    padding: 40px 20px;
 }
 
-header h1 {
-    font-size: 48px;
-    margin: 0;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    padding: 15px;
-    background: #111;
-}
-
-.links a {
-    color: #ff00ff;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-/* === ИНФО БЛОК === */
-.info {
-    padding: 35px;
-    text-align: center;
-}
-
-.info h2 {
+.svyatik h2 {
+    font-size: 36px;
     color: #ff00ff;
     margin-bottom: 20px;
-    font-size: 32px;
 }
 
-.info-block {
-    background: #151515;
-    padding: 20px;
-    margin: 15px auto;
-    border-radius: 14px;
-    max-width: 700px;
-    border: 2px solid #2a2a2a;
-    transition: 0.3s;
-}
-
-.info-block:hover {
-    border-color: #ff00ff;
-    transform: scale(1.02);
-}
-
-.info-block h3 {
-    margin-top: 0;
-    color: #ff00ff;
-}
-
-.big-btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 12px 25px;
-    background: #ff00ff;
-    color: white;
-    border-radius: 12px;
-    font-size: 20px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.big-btn:hover {
-    background: #cc00cc;
-}
-
-/* === ТОВАРЫ === */
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 30px;
-    padding: 35px;
-}
-
-.product {
-    background: #1c1c1c;
-    padding: 20px;
-    border-radius: 14px;
-    text-align: center;
-    border: 2px solid #2a2a2a;
-    transition: 0.3s;
-}
-
-.product:hover {
-    transform: scale(1.05);
-    border-color: #ff00ff;
-}
-
-.img-placeholder {
-    background: #292929;
-    height: 220px;
-    border-radius: 12px;
-    color: #888;
+.svyatik-card {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-    font-size: 18px;
 }
 
-.price {
-    color: #ff00ff;
-    font-weight: bold;
-    margin-top: 10px;
+.svyatik-card img {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 20px;
+    border: 3px solid #ff00ff;
+    transition: 0.3s;
 }
 
-.buy-btn {
-    background: #ff00ff;
-    color: white;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 10px;
-    margin-top: 10px;
-    transition: 0.2s;
+.svyatik-card img:hover {
+    transform: scale(1.05);
+    border-color: #cc00cc;
 }
 
-.buy-btn:hover {
-    background: #cc00cc;
-}
-
-/* === FOOTER === */
-footer {
-    background: #111;
-    padding: 20px;
-    text-align: center;
-    color: #777;
-    margin-top: 30px;
-}
 
